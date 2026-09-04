@@ -65,7 +65,7 @@ The rapid growth of structured electronic health records (EHR), semi-structured 
 ### Step-by-Step Launch
 1. **Navigate to the frontend directory**:
    ```bash
-   cd "ASSIGNMENT/IMPLEMENTATION FOR Q1/frontend"
+   cd "ASSIGNMENT/IMPLEMENTATION/frontend"
    ```
 
 2. **Install dependencies**:

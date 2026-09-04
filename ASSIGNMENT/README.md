@@ -6,7 +6,7 @@ This directory contains the complete source code, distributed system implementat
 
 ## 📂 Subdirectory Structure
 
-### 1. [`IMPLEMENTATION FOR Q1/`](./IMPLEMENTATION%20FOR%20Q1/)
+### 1. [`IMPLEMENTATION/`](./IMPLEMENTATION/)
 **Design and Implement a Big Data Analytics System (HealthPulse)**
 - **Domain**: Healthcare EHR & Telemetry Big Data Analytics
 - **Key Modules**:
@@ -27,11 +27,11 @@ This directory contains the complete source code, distributed system implementat
 
 ---
 
-## 🚀 How to Run the Q1 Implementation Web Application
+## 🚀 How to Run the Implementation Web Application
 
 ```bash
-# Navigate to Q1 frontend
-cd "ASSIGNMENT/IMPLEMENTATION FOR Q1/frontend"
+# Navigate to frontend
+cd "ASSIGNMENT/IMPLEMENTATION/frontend"
 
 # Install dependencies and launch local web application
 npm install

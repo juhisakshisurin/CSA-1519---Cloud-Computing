@@ -9,7 +9,7 @@ This repository contains all experimental implementations, assignments, and caps
 ```
 CSA-1519---Cloud-Computing/
 ├── ASSIGNMENT/
-│   ├── IMPLEMENTATION FOR Q1/      # Question 1: HealthPulse Big Data Analytics System (React Web App)
+│   ├── IMPLEMENTATION/             # HealthPulse Big Data Analytics & Apache Hadoop System (React Web App)
 │   ├── IMPLEMENTATION FOR Q2/      # Question 2: Apache Hadoop Ecosystem & HDFS Solution
 │   ├── IMPLEMENTATION FOR Q3/      # Question 3: Big Data Security Mechanism & Threat Detector
 │   └── Juhi Surin Cloud Computing Assignment 192525148.docx
@@ -23,9 +23,9 @@ CSA-1519---Cloud-Computing/
 
 ---
 
-## 🌟 Question 1 System Feature Highlights
+## 🌟 System Feature Highlights
 
-The **HealthPulse Big Data Analytics System** (`ASSIGNMENT/IMPLEMENTATION FOR Q1/frontend`) provides:
+The **HealthPulse Big Data Analytics System** (`ASSIGNMENT/IMPLEMENTATION/frontend`) provides:
 - **Interactive 5Vs Matrix** (Volume, Velocity, Variety, Veracity, Value)
 - **Live Vitals Stream Ticker** (36,143 records/sec throughput)
 - **HDFS Distributed Cluster Visualizer** (64MB chunking, RF=3, node failure recovery simulation)
@@ -38,10 +38,10 @@ The **HealthPulse Big Data Analytics System** (`ASSIGNMENT/IMPLEMENTATION FOR Q1
 
 ## 💻 Quick Start
 
-To launch the Question 1 Big Data Analytics Web Application:
+To launch the Big Data Analytics Web Application:
 
 ```bash
-cd "ASSIGNMENT/IMPLEMENTATION FOR Q1/frontend"
+cd "ASSIGNMENT/IMPLEMENTATION/frontend"
 npm install
 npm run dev
 ```
