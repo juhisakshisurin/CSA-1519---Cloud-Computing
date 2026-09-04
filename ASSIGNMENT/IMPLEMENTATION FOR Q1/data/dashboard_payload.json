@@ -1,0 +1,445 @@
+{
+  "summary": {
+    "total_records_processed": 10000,
+    "total_valid": 10000,
+    "total_corrupt_imputed": 489,
+    "total_cost_usd": 231983096.39,
+    "global_diag_counts": {
+      "Essential Primary Hypertension": 1318,
+      "Chronic Kidney Disease": 1250,
+      "Heart Failure Unspecified": 1224,
+      "Acute Myocardial Infarction": 1235,
+      "Malignant Neoplasm of Bronchus/Lung": 1201,
+      "Pneumonia Unspecified": 1251,
+      "Type 2 Diabetes Mellitus": 1254,
+      "Chronic Obstructive Pulmonary Disease": 1267
+    },
+    "global_region_costs": {
+      "North": 46622467.58,
+      "South": 46282384.39,
+      "East": 47341197.6,
+      "West": 45724255.68,
+      "Central": 46012791.14
+    },
+    "execution_time_seconds": 1.0435,
+    "throughput_records_per_sec": 9583.11,
+    "num_chunks": 2,
+    "num_workers": 4
+  },
+  "merkle_root": "3d54caf5097d788b6e948ae83d30aa41fb5db80c92afdb5cfcb8be7ade9f30bf",
+  "sample_records": [
+    {
+      "patient_id": "P-100000",
+      "ssn": "***-**-9935",
+      "patient_name": "James Rodriguez",
+      "age": 29,
+      "gender": "F",
+      "zip_code": "14165",
+      "region": "North",
+      "admission_date": "2026-01-24",
+      "diagnosis_code": "I10",
+      "diagnosis_name": "Essential Primary Hypertension",
+      "blood_pressure_systolic": 117,
+      "blood_pressure_diastolic": 74,
+      "cholesterol_mg_dl": 249,
+      "glucose_mg_dl": 224,
+      "treatment_cost_usd": 2362.28,
+      "readmitted_30d": 0,
+      "clinical_notes": "Post-operative check for Essential Primary Hypertension. Wound healing well, no infection signs observed. Continue baseline treatment."
+    },
+    {
+      "patient_id": "P-100001",
+      "ssn": "***-**-3547",
+      "patient_name": "James Garcia",
+      "age": 45,
+      "gender": "F",
+      "zip_code": "23396",
+      "region": "North",
+      "admission_date": "2026-04-08",
+      "diagnosis_code": "N18.9",
+      "diagnosis_name": "Chronic Kidney Disease",
+      "blood_pressure_systolic": 102,
+      "blood_pressure_diastolic": 82,
+      "cholesterol_mg_dl": 208,
+      "glucose_mg_dl": 224,
+      "treatment_cost_usd": 12786.01,
+      "readmitted_30d": 0,
+      "clinical_notes": "Post-operative check for Chronic Kidney Disease. Wound healing well, no infection signs observed. Continue baseline treatment."
+    },
+    {
+      "patient_id": "P-100002",
+      "ssn": "***-**-4150",
+      "patient_name": "Sarah Martinez",
+      "age": 26,
+      "gender": "M",
+      "zip_code": "96673",
+      "region": "South",
+      "admission_date": "2026-07-17",
+      "diagnosis_code": "I10",
+      "diagnosis_name": "Essential Primary Hypertension",
+      "blood_pressure_systolic": 127,
+      "blood_pressure_diastolic": 65,
+      "cholesterol_mg_dl": 179,
+      "glucose_mg_dl": 95,
+      "treatment_cost_usd": 17849.53,
+      "readmitted_30d": 1,
+      "clinical_notes": "Emergency admission due to acute shortness of breath and elevated vitals. Administered IV Atorvastatin 20mg immediately."
+    },
+    {
+      "patient_id": "P-100003",
+      "ssn": "***-**-5010",
+      "patient_name": "William Williams",
+      "age": 38,
+      "gender": "F",
+      "zip_code": "59735",
+      "region": "East",
+      "admission_date": "2026-08-25",
+      "diagnosis_code": "I50.9",
+      "diagnosis_name": "Heart Failure Unspecified",
+      "blood_pressure_systolic": 171,
+      "blood_pressure_diastolic": 104,
+      "cholesterol_mg_dl": 262,
+      "glucose_mg_dl": 126,
+      "treatment_cost_usd": 31186.1,
+      "readmitted_30d": 0,
+      "clinical_notes": "Routine evaluation for Heart Failure Unspecified. Vitals stable, but patient displays early signs of cough. Adjusting dosage."
+    },
+    {
+      "patient_id": "P-100004",
+      "ssn": "***-**-4483",
+      "patient_name": "William Williams",
+      "age": 81,
+      "gender": "F",
+      "zip_code": "94259",
+      "region": "West",
+      "admission_date": "2026-02-06",
+      "diagnosis_code": "I21.9",
+      "diagnosis_name": "Acute Myocardial Infarction",
+      "blood_pressure_systolic": 123,
+      "blood_pressure_diastolic": 68,
+      "cholesterol_mg_dl": 183,
+      "glucose_mg_dl": 213,
+      "treatment_cost_usd": 24807.21,
+      "readmitted_30d": 1,
+      "clinical_notes": "Post-operative check for Acute Myocardial Infarction. Wound healing well, no infection signs observed. Continue baseline treatment."
+    },
+    {
+      "patient_id": "P-100005",
+      "ssn": "***-**-3621",
+      "patient_name": "John Johnson",
+      "age": 72,
+      "gender": "M",
+      "zip_code": "60432",
+      "region": "West",
+      "admission_date": "2026-06-02",
+      "diagnosis_code": "C34.90",
+      "diagnosis_name": "Malignant Neoplasm of Bronchus/Lung",
+      "blood_pressure_systolic": 149,
+      "blood_pressure_diastolic": 93,
+      "cholesterol_mg_dl": 184,
+      "glucose_mg_dl": 211,
+      "treatment_cost_usd": 38902.15,
+      "readmitted_30d": 0,
+      "clinical_notes": "Patient reported severe dizziness over the last 9 days. Prescribed Atorvastatin 20mg. Follow-up in 2 weeks."
+    },
+    {
+      "patient_id": "P-100006",
+      "ssn": "***-**-5315",
+      "patient_name": "Patricia Martinez",
+      "age": 82,
+      "gender": "M",
+      "zip_code": "76542",
+      "region": "North",
+      "admission_date": "2026-08-11",
+      "diagnosis_code": "J18.9",
+      "diagnosis_name": "Pneumonia Unspecified",
+      "blood_pressure_systolic": 170,
+      "blood_pressure_diastolic": 79,
+      "cholesterol_mg_dl": 283,
+      "glucose_mg_dl": 199,
+      "treatment_cost_usd": 27872.9,
+      "readmitted_30d": 0,
+      "clinical_notes": "Emergency admission due to acute cough and elevated vitals. Administered IV Amoxicillin 500mg immediately."
+    },
+    {
+      "patient_id": "P-100007",
+      "ssn": "***-**-6038",
+      "patient_name": "Karen Hernandez",
+      "age": 48,
+      "gender": "M",
+      "zip_code": "41571",
+      "region": "Central",
+      "admission_date": "2026-01-21",
+      "diagnosis_code": "E11.9",
+      "diagnosis_name": "Type 2 Diabetes Mellitus",
+      "blood_pressure_systolic": 100,
+      "blood_pressure_diastolic": 106,
+      "cholesterol_mg_dl": 244,
+      "glucose_mg_dl": 87,
+      "treatment_cost_usd": 44035.72,
+      "readmitted_30d": 0,
+      "clinical_notes": "Routine evaluation for Type 2 Diabetes Mellitus. Vitals stable, but patient displays early signs of dizziness. Adjusting dosage."
+    },
+    {
+      "patient_id": "P-100008",
+      "ssn": "***-**-9835",
+      "patient_name": "William Taylor",
+      "age": 43,
+      "gender": "F",
+      "zip_code": "62296",
+      "region": "East",
+      "admission_date": "2026-04-23",
+      "diagnosis_code": "J44.9",
+      "diagnosis_name": "Chronic Obstructive Pulmonary Disease",
+      "blood_pressure_systolic": 156,
+      "blood_pressure_diastolic": 88,
+      "cholesterol_mg_dl": 150,
+      "glucose_mg_dl": 133,
+      "treatment_cost_usd": 11041.74,
+      "readmitted_30d": 1,
+      "clinical_notes": "Patient reported severe joint stiffness over the last 9 days. Prescribed Lisinopril 10mg. Follow-up in 2 weeks."
+    },
+    {
+      "patient_id": "P-100009",
+      "ssn": "***-**-2104",
+      "patient_name": "James Williams",
+      "age": 22,
+      "gender": "F",
+      "zip_code": "19287",
+      "region": "Central",
+      "admission_date": "2026-03-02",
+      "diagnosis_code": "I50.9",
+      "diagnosis_name": "Heart Failure Unspecified",
+      "blood_pressure_systolic": 125,
+      "blood_pressure_diastolic": 102,
+      "cholesterol_mg_dl": 244,
+      "glucose_mg_dl": 124,
+      "treatment_cost_usd": 24818.45,
+      "readmitted_30d": 1,
+      "clinical_notes": "Routine evaluation for Heart Failure Unspecified. Vitals stable, but patient displays early signs of cough. Adjusting dosage."
+    }
+  ],
+  "sample_risks": [
+    {
+      "patient_id": "P-100000",
+      "risk_score": 25.0,
+      "risk_category": "LOW"
+    },
+    {
+      "patient_id": "P-100001",
+      "risk_score": 40.0,
+      "risk_category": "MEDIUM"
+    },
+    {
+      "patient_id": "P-100002",
+      "risk_score": 0.0,
+      "risk_category": "LOW"
+    },
+    {
+      "patient_id": "P-100003",
+      "risk_score": 50.0,
+      "risk_category": "MEDIUM"
+    },
+    {
+      "patient_id": "P-100004",
+      "risk_score": 85.0,
+      "risk_category": "HIGH"
+    }
+  ],
+  "geo_outbreaks": {
+    "North": {
+      "total_cases": 2011,
+      "dominant_condition": "Pneumonia Unspecified",
+      "dominant_condition_cases": 273,
+      "breakdown": {
+        "Essential Primary Hypertension": 261,
+        "Chronic Kidney Disease": 257,
+        "Pneumonia Unspecified": 273,
+        "Heart Failure Unspecified": 243,
+        "Type 2 Diabetes Mellitus": 254,
+        "Chronic Obstructive Pulmonary Disease": 247,
+        "Acute Myocardial Infarction": 258,
+        "Malignant Neoplasm of Bronchus/Lung": 218
+      }
+    },
+    "South": {
+      "total_cases": 1995,
+      "dominant_condition": "Essential Primary Hypertension",
+      "dominant_condition_cases": 278,
+      "breakdown": {
+        "Essential Primary Hypertension": 278,
+        "Chronic Kidney Disease": 249,
+        "Acute Myocardial Infarction": 227,
+        "Pneumonia Unspecified": 251,
+        "Type 2 Diabetes Mellitus": 254,
+        "Chronic Obstructive Pulmonary Disease": 256,
+        "Malignant Neoplasm of Bronchus/Lung": 240,
+        "Heart Failure Unspecified": 240
+      }
+    },
+    "East": {
+      "total_cases": 2013,
+      "dominant_condition": "Essential Primary Hypertension",
+      "dominant_condition_cases": 278,
+      "breakdown": {
+        "Heart Failure Unspecified": 242,
+        "Chronic Obstructive Pulmonary Disease": 258,
+        "Acute Myocardial Infarction": 236,
+        "Type 2 Diabetes Mellitus": 259,
+        "Chronic Kidney Disease": 254,
+        "Pneumonia Unspecified": 249,
+        "Essential Primary Hypertension": 278,
+        "Malignant Neoplasm of Bronchus/Lung": 237
+      }
+    },
+    "West": {
+      "total_cases": 1984,
+      "dominant_condition": "Malignant Neoplasm of Bronchus/Lung",
+      "dominant_condition_cases": 260,
+      "breakdown": {
+        "Acute Myocardial Infarction": 259,
+        "Malignant Neoplasm of Bronchus/Lung": 260,
+        "Chronic Obstructive Pulmonary Disease": 255,
+        "Pneumonia Unspecified": 215,
+        "Chronic Kidney Disease": 249,
+        "Heart Failure Unspecified": 253,
+        "Type 2 Diabetes Mellitus": 241,
+        "Essential Primary Hypertension": 252
+      }
+    },
+    "Central": {
+      "total_cases": 1997,
+      "dominant_condition": "Pneumonia Unspecified",
+      "dominant_condition_cases": 263,
+      "breakdown": {
+        "Type 2 Diabetes Mellitus": 246,
+        "Heart Failure Unspecified": 246,
+        "Chronic Obstructive Pulmonary Disease": 251,
+        "Chronic Kidney Disease": 241,
+        "Malignant Neoplasm of Bronchus/Lung": 246,
+        "Essential Primary Hypertension": 249,
+        "Acute Myocardial Infarction": 255,
+        "Pneumonia Unspecified": 263
+      }
+    }
+  },
+  "nlp_insights": {
+    "total_notes_analyzed": 10000,
+    "emergency_acute_cases": 3140,
+    "top_symptoms": {
+      "dizziness": 1101,
+      "shortness of breath": 1088,
+      "cough": 1074,
+      "high fever": 1069,
+      "chest pain": 1067
+    },
+    "top_medications": {
+      "Metformin": 865,
+      "Amoxicillin": 851,
+      "Furosemide": 847,
+      "Albuterol": 820,
+      "Lisinopril": 813
+    }
+  },
+  "cost_outliers": {
+    "total_records": 10000,
+    "q1_cost": 12268.18,
+    "q3_cost": 34251.34,
+    "iqr": 21983.16,
+    "upper_bound_threshold": 67226.08,
+    "outliers_count": 0,
+    "max_outlier_cost": 0.0
+  },
+  "stream_windows": [
+    {
+      "window_start": "20:57:20",
+      "window_end": "20:57:30",
+      "event_count": 50,
+      "avg_heart_rate": 77.4,
+      "avg_spo2": 96.9,
+      "critical_alerts": 2,
+      "status": "NORMAL"
+    },
+    {
+      "window_start": "20:57:25",
+      "window_end": "20:57:35",
+      "event_count": 50,
+      "avg_heart_rate": 83.3,
+      "avg_spo2": 96.6,
+      "critical_alerts": 4,
+      "status": "CRITICAL"
+    },
+    {
+      "window_start": "20:57:30",
+      "window_end": "20:57:40",
+      "event_count": 50,
+      "avg_heart_rate": 81.9,
+      "avg_spo2": 97.0,
+      "critical_alerts": 3,
+      "status": "CRITICAL"
+    },
+    {
+      "window_start": "20:57:35",
+      "window_end": "20:57:45",
+      "event_count": 50,
+      "avg_heart_rate": 83.3,
+      "avg_spo2": 96.2,
+      "critical_alerts": 4,
+      "status": "CRITICAL"
+    },
+    {
+      "window_start": "20:57:40",
+      "window_end": "20:57:50",
+      "event_count": 50,
+      "avg_heart_rate": 81.5,
+      "avg_spo2": 96.2,
+      "critical_alerts": 3,
+      "status": "CRITICAL"
+    },
+    {
+      "window_start": "20:57:45",
+      "window_end": "20:57:55",
+      "event_count": 50,
+      "avg_heart_rate": 79.7,
+      "avg_spo2": 97.0,
+      "critical_alerts": 1,
+      "status": "NORMAL"
+    },
+    {
+      "window_start": "20:57:50",
+      "window_end": "20:58:00",
+      "event_count": 50,
+      "avg_heart_rate": 86.9,
+      "avg_spo2": 96.4,
+      "critical_alerts": 4,
+      "status": "CRITICAL"
+    },
+    {
+      "window_start": "20:57:55",
+      "window_end": "20:58:05",
+      "event_count": 50,
+      "avg_heart_rate": 90.7,
+      "avg_spo2": 95.5,
+      "critical_alerts": 8,
+      "status": "CRITICAL"
+    },
+    {
+      "window_start": "20:58:00",
+      "window_end": "20:58:10",
+      "event_count": 50,
+      "avg_heart_rate": 86.7,
+      "avg_spo2": 95.4,
+      "critical_alerts": 8,
+      "status": "CRITICAL"
+    },
+    {
+      "window_start": "20:58:05",
+      "window_end": "20:58:15",
+      "event_count": 50,
+      "avg_heart_rate": 80.7,
+      "avg_spo2": 96.4,
+      "critical_alerts": 3,
+      "status": "CRITICAL"
+    }
+  ]
+}

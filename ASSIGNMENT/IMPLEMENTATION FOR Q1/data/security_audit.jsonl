@@ -1,0 +1,1 @@
+{"timestamp": "2026-09-03T15:27:20.788406Z", "action": "BATCH_INGESTION_AND_ENCRYPTION", "user": "system_admin", "role": "Admin", "records_affected": 10000, "status": "SUCCESS", "details": "Merkle Root: 3d54caf5097d788b..."}

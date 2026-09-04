@@ -1,0 +1,60 @@
+{
+  "encryption": {
+    "status": "AES256_ACTIVE",
+    "key_version": 1
+  },
+  "rbac_sample": {
+    "SuperAdmin": {
+      "patient_id": "P-99001",
+      "patient_name": "Alexander Hamilton",
+      "ssn": "987-65-4321",
+      "diagnosis_name": "Acute Myocardial Infarction",
+      "treatment_cost_usd": 34500.0,
+      "_security_clearance": "Level 5 - FULL_UNRESTRICTED"
+    },
+    "ChiefComplianceOfficer": {
+      "patient_id": "P-99001",
+      "patient_name": "Alexander Hamilton",
+      "ssn": "***-**-4321",
+      "diagnosis_name": "Acute Myocardial Infarction",
+      "treatment_cost_usd": 34500.0,
+      "_security_clearance": "Level 4 - COMPLIANCE_AUDIT"
+    },
+    "LeadDoctor": {
+      "patient_id": "P-99001",
+      "patient_name": "Alexander Hamilton",
+      "ssn": "***-**-4321",
+      "diagnosis_name": "Acute Myocardial Infarction",
+      "treatment_cost_usd": 34500.0,
+      "_security_clearance": "Level 3 - CLINICAL_PHYSICIAN"
+    },
+    "DataScientist": {
+      "patient_id": "P-99001",
+      "patient_name": "[REDACTED_NAME]",
+      "ssn": "[REDACTED_SSN]",
+      "diagnosis_name": "Acute Myocardial Infarction",
+      "treatment_cost_usd": 34500.0,
+      "_security_clearance": "Level 2 - ANALYTICS_ANONYMIZED",
+      "anonymized_token": "TOK-b13ffbb7afba0059"
+    },
+    "ThirdPartyResearcher": {
+      "patient_id": "[REDACTED_ID]",
+      "patient_name": "[REDACTED_NAME]",
+      "ssn": "[REDACTED_SSN]",
+      "diagnosis_name": "Acute Myocardial Infarction",
+      "treatment_cost_usd": 30000.0,
+      "_security_clearance": "Level 1 - RESEARCH_AGGREGATED",
+      "clinical_notes": "[ENCRYPTED_RESTRICTED]"
+    }
+  },
+  "merkle_root": "8f394e3dd49a7e8093b22391e2450d988f2f8210b70c48a1e3235fa0fac41f17",
+  "tamper_attack_result": {
+    "status": "TAMPERING_DETECTED",
+    "is_valid": false,
+    "expected_merkle_root": "8f394e3dd49a7e8093b22391e2450d988f2f8210b70c48a1e3235fa0fac41f17",
+    "current_merkle_root": "4b7cb555c5e04677da658fda3322153b0ab7c3b5bee5db1c15c5d0024a291969",
+    "records_affected": 50,
+    "alert": "CRITICAL: Cryptographic Merkle Root Mismatch for Block block_sec_001!"
+  },
+  "ids_status": "IDS_ACTIVE_DEFENSE_ENGAGED"
+}

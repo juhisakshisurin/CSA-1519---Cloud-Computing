@@ -1,0 +1,113 @@
+{
+  "report": {
+    "namenode_status": "ACTIVE",
+    "active_datanodes": [
+      "DN-1",
+      "DN-2",
+      "DN-3",
+      "DN-4"
+    ],
+    "failed_datanodes": [],
+    "total_files": 2,
+    "total_blocks": 5,
+    "block_size_mb": 128,
+    "under_replicated_blocks": 0,
+    "cluster_health": "HEALTHY"
+  },
+  "storage_eval": {
+    "raw_file_size_mb": 0.8869,
+    "block_size_mb": 128,
+    "replication_factor": 3,
+    "blocks_allocated": 1,
+    "allocated_storage_mb": 128.0,
+    "padding_waste_mb": 127.1131,
+    "total_hdfs_footprint_mb": 384.0,
+    "net_storage_efficiency_percent": 0.23,
+    "replication_overhead_multiplier": "3x"
+  },
+  "failover_eval": {
+    "target_failed_node": "DN-2",
+    "data_accessible_post_failure": true,
+    "recovery_time_sec": 0.0014,
+    "self_healing_replications": 1,
+    "before_cluster_health": "HEALTHY",
+    "after_cluster_health": "HEALTHY",
+    "surviving_datanodes": [
+      "DN-1",
+      "DN-3",
+      "DN-4"
+    ]
+  },
+  "streaming_job": {
+    "job_id": "job_streaming_1788450975",
+    "status": "SUCCEEDED",
+    "execution_time_seconds": 0.4689,
+    "input_file": "/user/hadoop/input/healthcare_logs.txt",
+    "output_file": "/user/hadoop/output/wordcount",
+    "map_output_records": 120000,
+    "reduce_output_records": 10010,
+    "top_aggregated_results": [
+      [
+        "00",
+        "20000"
+      ],
+      [
+        "03",
+        "10000"
+      ],
+      [
+        "09",
+        "10000"
+      ],
+      [
+        "10000",
+        "1"
+      ],
+      [
+        "10001",
+        "1"
+      ],
+      [
+        "10002",
+        "1"
+      ],
+      [
+        "10003",
+        "1"
+      ],
+      [
+        "10004",
+        "1"
+      ],
+      [
+        "10005",
+        "1"
+      ],
+      [
+        "10006",
+        "1"
+      ]
+    ]
+  },
+  "hdfs_ls": {
+    "/user/hadoop/input/healthcare_logs.txt": {
+      "blocks": [
+        "blk_1001",
+        "blk_1002",
+        "blk_1003",
+        "blk_1004"
+      ],
+      "file_size": 920000,
+      "replication_factor": 3,
+      "created_at": "2026-09-03T15:56:15.310779Z"
+    },
+    "/user/hadoop/output/wordcount": {
+      "blocks": [
+        "blk_1005"
+      ],
+      "file_size": 80143,
+      "replication_factor": 3,
+      "created_at": "2026-09-03T15:56:15.797149Z"
+    }
+  }
+}

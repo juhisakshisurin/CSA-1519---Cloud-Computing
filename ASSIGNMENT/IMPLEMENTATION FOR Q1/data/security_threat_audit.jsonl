@@ -1,0 +1,2 @@
+{"timestamp": "2026-09-03T16:06:37.899458Z", "action": "EXPORT", "user_id": "attacker_bot", "role": "DataScientist", "records_count": 50, "status": "PERMITTED", "details": "Passed IDS rules."}
+{"timestamp": "2026-09-03T16:06:37.900225Z", "action": "EXFILTRATION_SPIKE_DETECTED", "user_id": "attacker_bot", "role": "DataScientist", "records_count": 230, "status": "THREAT_ALERT_BLOCKED", "details": "ALERT: User requested 230 records in 10s, exceeding threshold 200!"}

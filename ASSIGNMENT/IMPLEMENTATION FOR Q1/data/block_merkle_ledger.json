@@ -1,0 +1,9 @@
+[
+  {
+    "block_id": "block_sec_001",
+    "merkle_root": "8f394e3dd49a7e8093b22391e2450d988f2f8210b70c48a1e3235fa0fac41f17",
+    "record_count": 50,
+    "timestamp": "2026-09-03T16:06:37.897618Z",
+    "previous_ledger_hash": "0000000000000000"
+  }
+]

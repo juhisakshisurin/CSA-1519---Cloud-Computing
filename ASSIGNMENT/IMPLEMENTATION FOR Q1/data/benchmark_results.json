@@ -1,0 +1,58 @@
+[
+  {
+    "record_count": 1000,
+    "generation_time_sec": 0.022,
+    "security_crypto_time_sec": 0.044,
+    "storage_write_time_sec": 0.06,
+    "parallel_processing_time_sec": 0.839,
+    "analytics_time_sec": 0.003,
+    "total_pipeline_time_sec": 0.968,
+    "throughput_records_per_sec": 1032.9,
+    "memory_used_mb": 5.0,
+    "dataset_size_mb": 0.54,
+    "num_workers": 4,
+    "partitions_written": 5
+  },
+  {
+    "record_count": 5000,
+    "generation_time_sec": 0.12,
+    "security_crypto_time_sec": 0.122,
+    "storage_write_time_sec": 0.321,
+    "parallel_processing_time_sec": 0.836,
+    "analytics_time_sec": 0.018,
+    "total_pipeline_time_sec": 1.416,
+    "throughput_records_per_sec": 3530.9,
+    "memory_used_mb": 5.99,
+    "dataset_size_mb": 2.7,
+    "num_workers": 4,
+    "partitions_written": 5
+  },
+  {
+    "record_count": 25000,
+    "generation_time_sec": 0.603,
+    "security_crypto_time_sec": 0.606,
+    "storage_write_time_sec": 1.527,
+    "parallel_processing_time_sec": 1.13,
+    "analytics_time_sec": 0.087,
+    "total_pipeline_time_sec": 3.953,
+    "throughput_records_per_sec": 6324.6,
+    "memory_used_mb": 33.69,
+    "dataset_size_mb": 13.49,
+    "num_workers": 4,
+    "partitions_written": 5
+  },
+  {
+    "record_count": 100000,
+    "generation_time_sec": 2.33,
+    "security_crypto_time_sec": 3.039,
+    "storage_write_time_sec": 9.207,
+    "parallel_processing_time_sec": 1.81,
+    "analytics_time_sec": 0.431,
+    "total_pipeline_time_sec": 16.817,
+    "throughput_records_per_sec": 5946.5,
+    "memory_used_mb": 123.88,
+    "dataset_size_mb": 53.96,
+    "num_workers": 4,
+    "partitions_written": 5
+  }
+]

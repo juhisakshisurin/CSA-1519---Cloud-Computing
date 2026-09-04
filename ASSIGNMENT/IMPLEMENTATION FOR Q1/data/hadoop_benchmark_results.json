@@ -1,0 +1,42 @@
+[
+  {
+    "records_count": 1000,
+    "file_size_mb": 0.059,
+    "hdfs_put_latency_sec": 0.0033,
+    "hadoop_streaming_time_sec": 0.2317,
+    "total_pipeline_time_sec": 0.235,
+    "throughput_records_per_sec": 4255.2,
+    "map_records": 8000,
+    "reduce_records": 8
+  },
+  {
+    "records_count": 5000,
+    "file_size_mb": 0.296,
+    "hdfs_put_latency_sec": 0.0211,
+    "hadoop_streaming_time_sec": 0.2647,
+    "total_pipeline_time_sec": 0.2857,
+    "throughput_records_per_sec": 17498.0,
+    "map_records": 40000,
+    "reduce_records": 8
+  },
+  {
+    "records_count": 25000,
+    "file_size_mb": 1.502,
+    "hdfs_put_latency_sec": 0.0447,
+    "hadoop_streaming_time_sec": 0.6707,
+    "total_pipeline_time_sec": 0.7154,
+    "throughput_records_per_sec": 34946.3,
+    "map_records": 200000,
+    "reduce_records": 8
+  },
+  {
+    "records_count": 100000,
+    "file_size_mb": 6.104,
+    "hdfs_put_latency_sec": 0.2014,
+    "hadoop_streaming_time_sec": 2.5654,
+    "total_pipeline_time_sec": 2.7668,
+    "throughput_records_per_sec": 36143.0,
+    "map_records": 800000,
+    "reduce_records": 8
+  }
+]
